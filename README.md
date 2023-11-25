@@ -66,3 +66,34 @@ with
 
 The ONeCSD webserver loads the shipment data for the AWB number from the ONE Record server
 and updates the Screening Result for the given AWB in the ONE Record server once user confirms it.
+
+
+### Thank you
+Made without crunch by people who care about their forwarders at a software company that cares about its people.
+
+Thanks,
+
+
+        _                _ _
+	   / \   _ __  _ __ (_) | ____ _
+	  / _ \ | '_ \| '_ \| | |/ / _` |
+	 / ___ \| | | | | | | |   < (_| |
+	/_/   \_\_| |_|_| |_|_|_|\_\__,_|
+	
+	 _____            _
+	| ____|_ __  _ __(_) ___ ___
+	|  _| | '_ \| '__| |/ __/ _ \
+	| |___| | | | |  | | (_| (_) |
+	|_____|_| |_|_|  |_|\___\___/
+	
+	 _  __          _
+	| |/ /_____   _(_)_ __
+	| ' // _ \ \ / / | '_ \
+	| . \  __/\ V /| | | | |
+	|_|\_\___| \_/ |_|_| |_|
+	
+	 __  __            _   _
+	|  \/  | __ _ _ __| |_(_)_ __
+	| |\/| |/ _` | '__| __| | '_ \
+	| |  | | (_| | |  | |_| | | | |
+	|_|  |_|\__,_|_|   \__|_|_| |_|
