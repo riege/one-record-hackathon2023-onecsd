@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "SF Pro Text-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF Pro Text-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/FontsFree-Net-SFProText-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF Pro-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/SF-Pro.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Display-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/626b9292b9caa56ab0263857.626b9295ea0e25285ce3dd24.LItFW2b.hcp.png");
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen * {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}

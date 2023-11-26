@@ -1,0 +1,115 @@
+:root { 
+  --black: #000000;
+  --bon-jour: #e3e3e1;
+  --chicago: #595959;
+  --coconut: #fefeff;
+  --desert-storm: #f8f8f9;
+  --friar-gray: #808079;
+  --log-cabin: #232322;
+  --masala: #3b3b3b;
+  --olive-drab: #6d951d;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 14px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-xxl: 22px;
+  --font-size-xxxl: 24px;
+ 
+  --font-family-sf_pro-medium: "SF Pro-Medium", Helvetica;
+  --font-family-sf_pro_display-medium: "SF Pro Display-Medium", Helvetica;
+  --font-family-sf_pro_text-medium: "SF Pro Text-Medium", Helvetica;
+  --font-family-sf_pro_text-regular: "SF Pro Text-Regular", Helvetica;
+}
+.sfprotext-regular-normal-friar-gray-14px {
+  color: var(--friar-gray);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprotext-regular-normal-log-cabin-16px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprotext-medium-log-cabin-14px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-sf_pro_text-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sfpro-medium-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sfprotext-medium-log-cabin-12px {
+  color: var(--log-cabin);
+  font-family: var(--font-family-sf_pro_text-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sfprotext-regular-normal-chicago-16px {
+  color: var(--chicago);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprotext-regular-normal-chicago-14px {
+  color: var(--chicago);
+  font-family: var(--font-family-sf_pro_text-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfpro-medium-masala-16px {
+  color: var(--masala);
+  font-family: var(--font-family-sf_pro-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sfprotext-medium-coconut-18px {
+  color: var(--coconut);
+  font-family: var(--font-family-sf_pro_text-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sfprotext-medium-chicago-12px {
+  color: var(--chicago);
+  font-family: var(--font-family-sf_pro_text-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.sfprodisplay-medium-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-sf_pro_display-medium);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.border-1px-chicago {
+  border: 1px solid var(--chicago);
+}

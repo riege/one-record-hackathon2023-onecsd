@@ -27,6 +27,10 @@ Execute the following commandline after checkout of the git project:
 
 then check http://localhost:8023 for generated demo data.
 
+During the Hackathon event, opening http://localhost:8023 was loading the AWB data for 157-111111 from the available ONE Record AWS deployed server.
+For the general use with a URL providing the key to the relevant, see 'Format of QR codes' below.
+
+
 ### Docker Deployment
 Build project (spring)bootJar, then build docker-image and tag it as my/wicketspringboottemplate:
 
@@ -57,12 +61,14 @@ QR code with a link to the ONeCSD webserver to be used by the screening provider
 
 The URL for the QR have the following format:
 
-    https://fqdn:port/?w=123-12345678
+    https://fqdn:port/?loid=<LogisticObject_id_of_the_shipment>
 
 with 
 * `fqdn` being the full qualified domain name of the server,
 * `port` being the port where the server is running (default server.port is 8023)
-* `123-12345678` being the AWB number of the IATA shipment, in format nnn-nnnnnnnn, here 123-12345678 as an example value.
+* LogisticObject_id_of_the_shipment being the ID of the shipment which refers to the AWB. 
+
+During the Hackathon, the webservice was loading with loid = e9e5990a-aad9-4f19-a696-d9bd6824c195 as a default if no ID was provided.
 
 The ONeCSD webserver loads the shipment data for the AWB number from the ONE Record server
 and updates the Screening Result for the given AWB in the ONE Record server once user confirms it.

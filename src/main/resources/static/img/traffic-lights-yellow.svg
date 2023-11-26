@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 140.66001 307.84"
+   version="1.0"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   width="140.66"
+   height="307.84">
+  <defs
+     id="defs20" />
+  <g
+     id="layer1"
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     transform="translate(1085.1,-455.89999)">
+    <rect
+       x="-1085.1"
+       y="455.89999"
+       width="140.66"
+       height="307.84"
+       ry="45.744999"
+       style="fill:#000000"
+       id="rect2383" />
+    <ellipse
+       ry="43.500401"
+       rx="43.50024"
+       cy="702.23785"
+       cx="-1014.7165"
+       style="fill:#ffffff;stroke-width:0.55046511"
+       id="path2391" />
+    <ellipse
+       ry="43.500401"
+       rx="43.50024"
+       cy="609.81781"
+       cx="-1014.7165"
+       style="fill:#FDE68A;stroke-width:0.55046511;fill-opacity:1"
+       id="path2435" />
+    <ellipse
+       ry="43.500401"
+       rx="43.50024"
+       cy="517.39783"
+       cx="-1014.7165"
+       style="fill:#ffffff;stroke-width:0.55046511"
+       id="path2437" />
+  </g>
+</svg>
