@@ -52,7 +52,7 @@ then check http://localhost:8888/
 
 ## Format of QR codes
 
-The ONeCSD webserver is designed to run linked directly with a ONE Record server of a forwarder.
+The ONeCSD webserver is designed to run in combination with a ONE Record server of a forwarder.
 The current ONeCSD implementation as a Hackathon project was running against a provided AWS NE:ONE server,
 the current code has no support to configure the URL of the connected ONE Record server.
 
